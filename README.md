@@ -16,7 +16,7 @@ In this project, we practiced responsive design breakpoints by creating a Mondri
 
 OR...
 
-* View on gh-pages at [https://avocadobravado.github.io/REPO](https://avocadobravado.github.io/mondrian-template)
+* View on gh-pages at [https://avocadobravado.github.io/mondrian-template](https://avocadobravado.github.io/mondrian-template)
 
 ## Screenshot of Project
 
