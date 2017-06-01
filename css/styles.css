@@ -3,17 +3,17 @@
 /* This section will create dashed borders around all elements, uncomment the below code when building layout */
 
 
-:not(body):not(html) {
+*:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
 }
 
+/* End for testing */
 
 
-/* END WIREFRAME TESTING */
-
-
-/* GLOBAL STYLES */
+.columns {
+  margin: .5%;
+}
 
 * {
   margin: 0;
@@ -27,21 +27,35 @@ body {
   color: #222;
 }
 
-.container {
-  width: 100%;
+img {
+  max-width: 100%;
 }
 
-.image {
-  max-width: 600px;
+.container  {
+  width: 95%;
   margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
-  margin: 3% auto;
+.cat {
+  width: 66%;
+  float: left;
 }
 
- /* Clearfix */
+.fox {
+  float: right;
+  width: 32%;
+}
+
+.dog {
+  float: right;
+  width: 32%;
+}
+
+.fox, .dog {
+  margin: 0 auto;
+}
+
+/* Clearfix */
 
 .clearfix {
 content: "";
@@ -49,81 +63,41 @@ display: table;
 clear: both;
 }
 
-/* MEDIA QUERIES */
+/*MEDIA*/
 
-/* Medium Devices, Wide Screens */
- @media only screen and (min-width : 601px) {
-   .container {
-     overflow: auto;
-   }
 
-   .image {
-     max-width: 1000px;
-   }
-   #cat {
-     width: 100%;
-   }
-   .lower-col {
-     max-width: 1000px;
-     margin: 0 auto;
-     clear: both;
-     overflow: auto;
+@media screen and (max-width: 1200px) {
+  .columns {
+    margin: 0 auto;
+  }
 
-   }
+  .container {
+    margin: 0 auto;
+  }
 
-   #dog, #fox {
-     max-width: 49%;
-     margin-right: 0.5%;
-     margin-left: 0.5%;
-     float: left;
-   }
- }
+  .cat {
+    float: none;
+    width: 90%;
+    margin-bottom: 1%;
+  }
 
- /* Medium Devices */
- @media only screen and (min-width : 1500px) {
-   .container {
-     width: 100%;
-     height: 100%;
-     margin: 0 5vw;
-   }
-
-   img {
-     margin: 0;
-   }
-   .image {
-     height: 100%;
-     /*overflow: auto;*/
-   }
-   #cat {
-     float: left;
-     position: absolute;
-     clear: both;
-     width: 45%;
-   }
-
-   #cat img {
-     width: 100%;
-   }
-
-  #dog, #fox {
-    clear: both;
+  .fox {
     float: left;
+    margin-left: 5%;
+    width: 44%;
   }
 
-  .lower-col {
-    margin-right: 10%;
-    background-color: tomato;
-    float: right;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    overflow-x: hidden;
-    width:
-    height: 100%;
-    /*clear: both;*/
-    /*position: relative;*/
-    /*height: 550px;*/
-
-
-
+  .dog {
+    float: left;
+    width: 44%;
+    margin-left: 2%;
   }
- }
+}
+
+@media screen and (max-width: 600px) {
+  .fox, .dog {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }

@@ -1,34 +1,31 @@
-# _Title_
+# _Responsive Design Pattern Practice - Mondrian Template_
 
-#### Week [ADD] Project - [CLASS]
+#### Week 2 Project - 2
 
-#### By **Rose Sponseller and PAIR, DATE, 2017**
+#### By **Rose Sponseller and Kristen McKee, May 31, 2017**
 
 ## Description
 
-
+In this project, we practiced responsive design breakpoints by creating a Mondrian-esque template.  The site features three images. Once it becomes too narrow for the initial state though the widescreen layout adapts and becomes a vertical layout. This layout then breaks down to our standard single column mobile view where each piece of content is simply stacked under the last.
 
 ## Setup/Installation Requirements
 
 * Open CMD/Terminal
-* git clone `https://github.com/avocadobravado/REPO`
+* git clone `https://github.com/avocadobravado/mondrian-template`
 * Open index.html file in a browser such as Google Chrome
 
 OR...
 
-* View on gh-pages at [https://avocadobravado.github.io/REPO](https://avocadobravado.github.io/REPO)
+* View on gh-pages at [https://avocadobravado.github.io/REPO](https://avocadobravado.github.io/mondrian-template)
 
 ## Screenshot of Project
 
-![screenshot of project](https://github.com/avocadobravado/REPO/blob/master/NAME.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/mondrian-template/blob/master/img/scs.png?raw=true)
 
 ## How to Use
 
 * Open index.html in a web browser such as Google Chrome
 
-## Known Bugs
-
-*
 
 ## Support and contact details
 
@@ -54,4 +51,4 @@ OR...
 
 This project is licensed under the MIT License
 
-**_Rose Sponseller and PAIR_** Copyright (c) 2017
+**_Rose Sponseller and Kristen McKee_** Copyright (c) 2017
